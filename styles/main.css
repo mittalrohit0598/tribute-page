@@ -19,9 +19,11 @@ img {
 
 h1 {
     margin: 30px;
-    font-size: 4.5rem;
+    margin-right: 50px;
+    font-size: 8rem;
     font-weight: bold;
     font-family: Spectral, Helvetica;
+    text-align: center;
 }
 
 h2 {
