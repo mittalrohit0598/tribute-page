@@ -13,12 +13,13 @@ body {
 
 img {
     margin: auto;
+    max-width: 100%;
     display: block;
 }
 
 h1 {
     margin: 30px;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: bold;
     font-family: Spectral, Helvetica;
 }
@@ -58,8 +59,6 @@ strong {
 }
 
 #container {
-    width: 850px;
-    margin: auto;
     display: grid;
     grid-template-columns: 180px 180px 180px 180px;
     grid-template-rows: 250px 250px 250px;
@@ -67,8 +66,15 @@ strong {
     justify-items: center;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
+}
+
+#img-div {
     background-color: #e6c5ac;
     padding: 20px;
+    width: 850px;
+    margin: auto;
+    font-size: 1.6rem;
 }
 
 #container img {
