@@ -7,7 +7,7 @@ body {
     text-align: center;
     line-height: 1.5;
     font-family: Karla, Helvetica, Arial;
-    background-color: #fff5de;
+    background-color: #ffffff;
     color: #141414;
 }
 
@@ -28,7 +28,7 @@ h1 {
 
 h2 {
     margin: 30px;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
     font-family: Spectral, Helvetica;
 }
@@ -39,6 +39,10 @@ h3 {
     font-weight: bold;
     font-family: Spectral, Helvetica;
     text-align: left;
+}
+
+h4 {
+    font-size: 2rem;
 }
 
 #list {
@@ -60,19 +64,21 @@ strong {
     font-weight: bold;
 }
 
+figcaption {
+    color: #ffffff;
+}
+
 #container {
     display: grid;
     grid-template-columns: 180px 180px 180px 180px;
     grid-template-rows: 250px 250px 250px;
     grid-gap: 20px 20px;
-    justify-items: center;
-    align-items: center;
     justify-content: center;
     margin-bottom: 20px;
 }
 
 #img-div {
-    background-color: #e6c5ac;
+    background-color: #141414;
     padding: 20px;
     width: 850px;
     margin: auto;
