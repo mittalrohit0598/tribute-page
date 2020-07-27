@@ -49,6 +49,7 @@ h4 {
     margin: auto;
     width: 890px;
     text-align: left;
+    width: 68.79vw;
 }
 
 ul {
@@ -70,8 +71,8 @@ figcaption {
 
 #container {
     display: grid;
-    grid-template-columns: 180px 180px 180px 180px;
-    grid-template-rows: 250px 250px 250px;
+    grid-template-columns: 13.91vw 13.91vw 13.91vw 13.91vw;
+    grid-template-rows: 19.32vw 19.32vw 19.32vw;
     grid-gap: 20px 20px;
     justify-content: center;
     margin-bottom: 20px;
@@ -83,10 +84,11 @@ figcaption {
     width: 850px;
     margin: auto;
     font-size: 1.6rem;
+    width: 65.69vw;
 }
 
 #container img {
-    height: 250px;
+    height: 20vw;
 }
 
 #d1 {
